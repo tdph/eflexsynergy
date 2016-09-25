@@ -13,7 +13,20 @@
     </head>
     <body>
         <div ng-controller="default" class="wrapper">
-            <div class="header" ng-include="'template/modules/nav.html'"></div>
+            <div class="header">
+                <div class="nav-wrapper container right">
+                    <div class="logo">
+                        <label class="sitename">E-FLEX SYNERGY</label>
+                        <div ng-click="toggle()" class="toggle visible-xs"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+                    </div>
+                    <ul class="nav">
+                        <li class="active">Home</li>
+                        <li>Services</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
             <header class="banner">
                 <h1 class="logo">WE ARE <span class="primary">E-FLEX SYNERGY</span></h1>
                 <!-- <p class="tagline">Your Alternative Loading Platform</p> -->
