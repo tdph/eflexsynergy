@@ -7,7 +7,7 @@
     overflow: hidden
     transition: max-height 0.3s ease-in-out
     color: #FFF
-    background-color: lighten($tc1, 10)
+    background-color: darken($tc1, 5%)
     position: relative
     .nav-wrapper
         overflow: hidden
@@ -84,9 +84,9 @@
                 li
                     width: 100%
                     padding: 15px 20px
-                    border-bottom: 1px solid lighten($tc1, 20%)
+                    border-bottom: 1px solid $tc1
                     &:first-child
-                        border-top: 1px solid lighten($tc1, 20%)
+                        border-top: 1px solid $tc1
                     &:last-child
                         border-bottom: 0
     &.isshow
