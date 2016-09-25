@@ -2,6 +2,12 @@
 Thumbs.db
 ehthumbs.db
 
+# Bower Components
+bower_components
+
+# Node Modules
+node_modules
+
 # Folder config file
 Desktop.ini
 

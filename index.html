@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--[if lt IE7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE8]> --> <html class="no-js" lang="en" ng-app="app"> <!--<![endif]-->
+    <head ng-include="'template/head.html'">
+        <title>FLEX SYNERGY</title>
+    </head>
+    <body>
+        <div ng-controller="myController" class="wrapper">
+            <div class="header" ng-include="'template/modules/nav.html'"></div>
+            <header class="banner">
+                <h1 class="logo">WE ARE <span class="primary">FLEX SYNERGY</span></h1>
+                <!-- <p class="tagline">Your Alternative Loading Platform</p> -->
+                <p class="tagline">YOUR ALTERNATIVE LOADING PLATFORM</p>
+            </header>
+            <div class="content" ng-include="'template/home.html'"></div>
+            <footer></footer>
+        </div>
+        <script src="/bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js" charset="utf-8"></script>
+        <script src="/bower_components/angular/angular.js" charset="utf-8"></script>
+        <script src="/assets/js/app.js" charset="utf-8"></script>
+    </body>
+</html>
