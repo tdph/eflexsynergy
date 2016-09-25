@@ -7,7 +7,7 @@
     overflow: hidden
     transition: max-height 0.3s ease-in-out
     color: #FFF
-    background-color: $dark-grey
+    background-color: lighten($tc1, 10)
     position: relative
     .nav-wrapper
         overflow: hidden
@@ -60,7 +60,7 @@
                     height: 100%
                     box-sizing: border-box
                     transition: all 0.1s ease-in-out
-                    background-color: $tc1
+                    background-color: $dark-grey
                 @media (min-width: $screen-sm-min)
                     &.active
                         &::before
@@ -84,9 +84,9 @@
                 li
                     width: 100%
                     padding: 15px 20px
-                    border-bottom: 1px solid lighten($dark-grey, 20%)
+                    border-bottom: 1px solid lighten($tc1, 20%)
                     &:first-child
-                        border-top: 1px solid lighten($dark-grey, 20%)
+                        border-top: 1px solid lighten($tc1, 20%)
                     &:last-child
                         border-bottom: 0
     &.isshow
