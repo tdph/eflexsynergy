@@ -1,6 +1,6 @@
 var app = angular
     .module("app", [])
-    .controller("myController", ['$scope', function($scope) {
+    .controller("default", ['$scope', function($scope) {
         $scope.toggle = function() {
             $('.header').toggleClass('isshow');
         };
