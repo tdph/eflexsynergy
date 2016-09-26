@@ -28,7 +28,8 @@ header.banner
             font-size: 0.55em
         @media (max-width: $screen-xxs-max)
             font-size: 0.4em
-        animation: moveup 1s ease-in-out forwards
+        &.loaded
+            animation: moveup 1s ease-in-out forwards
     .logo
         font-size: 4em
         color: #111

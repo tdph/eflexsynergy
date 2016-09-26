@@ -1,1 +1,1 @@
-$(function(){$(".toggle").on("click",function(){$(".header").toggleClass("isshow")})});
+$(function(){$(".toggle").on("click",function(){$(".header").toggleClass("isshow")})}),$(window).on("load",function(){$(".text").toggleClass("loaded")});
