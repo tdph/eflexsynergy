@@ -1,1 +1,1 @@
-var app=angular.module("app",[]).controller("default",["$scope",function(o){o.toggle=function(){$(".header").toggleClass("isshow")}}]);
+$(function(){$(".toggle").on("click",function(){$(".header").toggleClass("isshow")})});
